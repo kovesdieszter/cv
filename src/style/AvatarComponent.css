@@ -1,0 +1,90 @@
+.avatar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 30%;
+  min-width: 30%;
+  padding: 2%;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 2%;
+  margin: 2%;
+}
+
+.avatar img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2%;
+}
+
+.contact-info {
+  margin-top: 3px;
+  text-align: left;
+}
+
+.contact-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2px;
+}
+
+.name {
+  margin: 2% 0;
+  font-size: 3vw;
+}
+
+.email {
+  margin: 3% 0;
+  font-size: 2vw;
+  color: grey;
+}
+
+.location-dot {
+  margin-right: 2%;
+}
+.location {
+  margin-top: 10%;
+  font-size: 1.7vw;
+}
+
+.contact-title {
+  border-top: 2px solid black;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 3% 0;
+  font-size: 2vw;
+}
+.contact-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: auto;
+}
+.contact-icons a {
+  margin-right: 3vw;
+  text-align: center;
+  flex: 1;
+  max-width: calc(30%);
+}
+
+.base-icon {
+  font-size: 4vw;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:visited:hover {
+  color: grey;
+}
+
+a:visited {
+  color: black;
+}
