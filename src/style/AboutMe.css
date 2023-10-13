@@ -1,16 +1,15 @@
 .about-me-container {
   max-width: 100%;
-  padding: 1% 0;
+  padding: 5% 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .image-card {
-  min-width: 40%;
-  max-width: 40%;
-  min-height: 20vw;
-  margin: 3% 3%;
+  min-width: 25%;
+  max-width: 25%;
+  margin: 1% 2%;
   padding: 1%;
 }
 
@@ -23,7 +22,7 @@ img {
 
 @media (min-width: 768px) {
   .image-card {
-    min-width: 40%;
-    max-width: 40%;
+    min-width: 20%;
+    max-width: 25%;
   }
 }
