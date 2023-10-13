@@ -1,0 +1,42 @@
+.navbar {
+  background-color: gainsboro;
+  padding: 0vw 0;
+  height: auto;
+  border-bottom: 0.2vw solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin: 0 2.4vw;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: white;
+  transition: color 0.3s;
+}
+
+.nav-button {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 0px;
+  font-weight: bold;
+  font-size: 1.4vw;
+  background-color: gainsboro;
+}
+
+.nav-button:hover {
+  color: #4e4e4e;
+  font-weight: bold;
+}
