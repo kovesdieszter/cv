@@ -1,0 +1,74 @@
+.avatar img {
+  display: block;
+  max-width: 20vw;
+  max-height: auto;
+  border-radius: 2%;
+  margin: 0 0;
+}
+
+.contact-info {
+  margin-top: 0;
+  text-align: left;
+}
+
+.name {
+  margin-bottom: 1%;
+  font-size: 1.9vw;
+}
+
+.email {
+  margin: 3% 0;
+  font-size: 1.4vw;
+  color: grey;
+}
+
+.location-dot {
+  margin-right: 2%;
+}
+.location {
+  margin-top: 10%;
+  font-size: 1.3vw;
+}
+
+.contact-title {
+  border-top: 2px solid black;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 3% 0;
+  font-size: 1.8vw;
+}
+.contact-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: auto;
+}
+.contact-icons a {
+  margin-right: 2vw;
+  text-align: center;
+  flex: 1;
+  max-width: calc(30%);
+}
+
+.base-icon {
+  font-size: 3vw;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:visited:hover {
+  color: grey;
+}
+
+a:visited {
+  color: black;
+}

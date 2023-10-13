@@ -1,0 +1,35 @@
+.education-item,
+.experience-item {
+  border-bottom: 0.1vw solid rgb(150, 150, 150);
+  margin: 2% 0%;
+  padding-bottom: 1%;
+}
+
+.education-type,
+.experience-company {
+  font-size: 1.6vw;
+  font-weight: 500;
+  color: rgb(32, 16, 32);
+}
+
+.education-school,
+.experience-years {
+  color: grey;
+  margin-bottom: 1%;
+  font-size: 1vw;
+}
+
+.education-certificate,
+.experience-position {
+  font-weight: 400;
+  margin-bottom: 0.7%;
+  font-size: 1.1vw;
+}
+
+.education-years {
+  font-size: 0.8vw;
+}
+
+.experience-detail-item {
+  font-size: 1.1vw;
+}

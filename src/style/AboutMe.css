@@ -1,0 +1,28 @@
+.about-me-container {
+  max-width: 100%;
+  padding: 5% 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-card {
+  min-width: 25%;
+  max-width: 25%;
+  margin: 1% 2%;
+  padding: 1%;
+}
+
+img {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 20vw;
+  border-radius: 2%;
+}
+
+@media (min-width: 768px) {
+  .image-card {
+    min-width: 20%;
+    max-width: 25%;
+  }
+}

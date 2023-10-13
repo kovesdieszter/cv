@@ -1,0 +1,37 @@
+.repository-card {
+  flex-basis: calc(50% - 20px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1.2vw;
+  margin: 2vw 0;
+}
+
+.repo-link {
+  text-decoration: none;
+  color: #0366d6;
+  font-size: 1.4vw;
+  font-weight: bold;
+}
+
+.repo-description {
+  margin: 1vw 0;
+  font-size: 1.2vw;
+}
+
+.repo-challenge {
+  font-size: 1.15vw;
+  color: grey;
+}
+
+.technologies {
+  display: flex;
+  font-size: 1vw;
+}
+
+.technology {
+  background-color: #d1d1d1;
+  color: #000;
+  padding: 0.5%;
+  border-radius: 0.6vw;
+  margin-right: 0.5vw;
+}
