@@ -1,40 +1,24 @@
-.avatar-container {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  width: 30%;
-  min-width: 30%;
-  padding: 2%;
-  background-color: #f8f8f8;
-  border: 1px solid #ddd;
-  border-radius: 2%;
-  margin: 2%;
-}
-
 .avatar img {
-  max-width: 100%;
-  height: auto;
+  display: block;
+  max-width: 20vw;
+  max-height: auto;
   border-radius: 2%;
+  margin: 0 0;
 }
 
 .contact-info {
-  margin-top: 3px;
+  margin-top: 0;
   text-align: left;
 }
 
-.contact-info h2 {
-  font-size: 1.5rem;
-  margin-bottom: 2px;
-}
-
 .name {
-  margin: 2% 0;
-  font-size: 3vw;
+  margin-bottom: 1%;
+  font-size: 1.9vw;
 }
 
 .email {
   margin: 3% 0;
-  font-size: 2vw;
+  font-size: 1.4vw;
   color: grey;
 }
 
@@ -43,7 +27,7 @@
 }
 .location {
   margin-top: 10%;
-  font-size: 1.7vw;
+  font-size: 1.3vw;
 }
 
 .contact-title {
@@ -52,7 +36,7 @@
   padding-top: 2%;
   padding-bottom: 2%;
   margin: 3% 0;
-  font-size: 2vw;
+  font-size: 1.8vw;
 }
 .contact-icons {
   display: flex;
@@ -63,14 +47,14 @@
   gap: auto;
 }
 .contact-icons a {
-  margin-right: 3vw;
+  margin-right: 2vw;
   text-align: center;
   flex: 1;
   max-width: calc(30%);
 }
 
 .base-icon {
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 a:link {
