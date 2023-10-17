@@ -8,3 +8,13 @@
 - React
 - CSS
 - Typescript
+- Deployed with gh-pages
+
+## Future plans for this project
+
+- Implement responsiveness
+- Add a black & white feature
+- Provide a downloadable PDF version
+
+## Live Demo
+**👉[Click here](https://kovesdieszter.github.io/cv/)**
