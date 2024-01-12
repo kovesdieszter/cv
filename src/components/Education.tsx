@@ -23,7 +23,7 @@ export const Education = () => {
     {
       type: "Secondary school",
       school: "Gödöllői Református Líceum Gimnázium",
-      certificate: "Secondary school",
+      certificate: "High school diploma",
       years: "2009 - 2015",
     },
   ];

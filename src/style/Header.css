@@ -1,6 +1,28 @@
 .header {
-  font-size: 0.9vw;
-  background-color: black;
+  font-size: 1.6rem;
+  background-color: #000;
   color: rgb(155, 155, 155);
-  padding: 0.25% 2.5%;
+  padding: 3.2rem;
+}
+
+@media (max-width: 84em) {
+}
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 44em) {
+}
+@media (max-width: 34em) {
 }
